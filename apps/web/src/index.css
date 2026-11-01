@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #140d07;
+  --color-foreground: #f4ece2;
+  --color-card: #1c130b;
+  --color-card-foreground: #f4ece2;
+  --color-popover: #1c130b;
+  --color-popover-foreground: #f4ece2;
+  --color-primary: #d67926;
+  --color-primary-foreground: #140d07;
+  --color-secondary: #281b10;
+  --color-secondary-foreground: #f4ece2;
+  --color-muted: #25190f;
+  --color-muted-foreground: #9d8975;
+  --color-accent: #d67926;
+  --color-accent-foreground: #140d07;
+  --color-destructive: #dc2626;
+  --color-destructive-foreground: #f4ece2;
+  --color-border: #332315;
+  --color-input: #23170e;
+  --color-ring: #d67926;
+  --radius: 0.5rem;
+}
+
+:root {
+  --background: #140d07;
+  --foreground: #f4ece2;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.font-mono-numbers {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    #25190f 25%,
+    #382516 50%,
+    #25190f 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.6s infinite ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shimmer {
+    animation: none;
+    background: #25190f;
+  }
+}

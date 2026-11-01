@@ -1,0 +1,46 @@
+[
+  {
+    "page": "home",
+    "profile": "desktop",
+    "performance": 100,
+    "accessibility": 97,
+    "bestPractices": 100,
+    "seo": 91,
+    "lcp": "234 ms",
+    "cls": 0.009,
+    "tbt": "37 ms"
+  },
+  {
+    "page": "home",
+    "profile": "mobile",
+    "performance": 89,
+    "accessibility": 97,
+    "bestPractices": 100,
+    "seo": 91,
+    "lcp": "798 ms",
+    "cls": 0,
+    "tbt": "449 ms"
+  },
+  {
+    "page": "nft-detail",
+    "profile": "desktop",
+    "performance": 100,
+    "accessibility": 96,
+    "bestPractices": 100,
+    "seo": 91,
+    "lcp": "740 ms",
+    "cls": 0,
+    "tbt": "9 ms"
+  },
+  {
+    "page": "nft-detail",
+    "profile": "mobile",
+    "performance": 88,
+    "accessibility": 96,
+    "bestPractices": 100,
+    "seo": 91,
+    "lcp": "2983 ms",
+    "cls": 0,
+    "tbt": "305 ms"
+  }
+]
